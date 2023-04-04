@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(green, lime);
+    height: max-content;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo {
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo > h1 {
+    font-size: 850%;
+    margin: 0 50px;
+}
+
+#info {
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
