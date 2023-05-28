@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Memory game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="board"> </div>
+    <p id = 'result'>  </p>
+    <label for="size-board"> Podaj poziom trudności (1 - łatwy, 2 - średni, 3 - trudny, 4 - ekstremalny): </label>
+    <input type="number" id="size-board" min = "1" max = "4"><br><br>
+    <!-- <label for="firstPlayer"> Podaj nazwę pierwszego gracza </label>
+    <input type="text" id = "firstPlayer"><br><br>
+    <label for="secondPlayer"> Podaj nazwę drugiego gracza </label>
+    <input type="text" id = "secondPlayer"> -->
+    <button id="start-game" onclick = "regenerate()"> Generuj </button>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+table {
+    border: solid black 1px;
+    margin: 50px 0;
+    background-color: yellow;
+}
+
+tr, td {
+    border: solid black 1px;
+    padding: 50px;
+}
+
+p {
+    display: none;
+}
+
+table, td {
+    border-radius: 10px;
+}
+
+#result {
+    display: block;
+    font-size: 250%;
+}
