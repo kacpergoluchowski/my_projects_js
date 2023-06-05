@@ -1,0 +1,28 @@
+td {
+    border: solid black 1px;
+    padding: 60px;
+}
+
+.card {
+    background-color: red;
+}
+
+.card p {
+    display: none;
+}
+
+.active-card {
+    background-color: white;
+}
+
+.active-card p {
+    display: block;
+}
+
+.face-up-card {
+    background-color: limegreen;
+}
+
+.face-up-card p {
+    display: block;
+}
